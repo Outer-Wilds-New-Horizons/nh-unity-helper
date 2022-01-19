@@ -13,16 +13,12 @@ public class CreateNewPrefab
     [MenuItem("Assets/New Horizons/New Prop or Detail")]
     static void CreateNewPropPrefab()
     {
-        if (AssetDatabase.IsValidFolder("Assets/Props") == false)
-        {
-            AssetDatabase.CreateFolder("Assets", "Props");
-        }
         int currentIter = 0;
-        while (AssetExists("NewProp" + currentIter, "Assets/Props"))
+        while (AssetExists("NewProp" + currentIter, "Assets"))
         {
             currentIter++;
         }
-        string assetPath = "Assets/Props/NewProp" + currentIter + ".prefab";
+        string assetPath = "Assets/NewProp" + currentIter + ".prefab";
         GameObject newGameObject = new GameObject();
         GameObject newPrefab = PrefabUtility.SaveAsPrefabAsset(newGameObject, assetPath);
         AssetDatabase.OpenAsset(newPrefab);
