@@ -1,0 +1,7 @@
+{
+  "name": "com.bwc9876.newhorizonshelper",
+  "version": "0.1.0",
+  "description": "A package that provides tools needed to add custom packages to Outer Wilds New Horizons",
+  "displayName": "New Horizons Helper",
+  "type": "tool"
+}
