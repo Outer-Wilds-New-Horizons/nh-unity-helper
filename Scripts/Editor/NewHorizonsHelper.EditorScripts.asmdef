@@ -1,0 +1,18 @@
+{
+    "name": "NewHorizonsHelper.EditorScripts",
+    "references": [
+        "GUID:364d02ac815909440921dd3da95a826d",
+        "GUID:c4b8fc492eac8184fb9a42684cf8c464"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

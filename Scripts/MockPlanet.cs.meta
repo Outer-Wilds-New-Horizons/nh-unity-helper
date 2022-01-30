@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a03e62a3b09439e4aa4f5276c5df9468
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - planetMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
