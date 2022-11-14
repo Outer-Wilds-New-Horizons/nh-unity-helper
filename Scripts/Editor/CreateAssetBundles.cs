@@ -80,8 +80,8 @@ public class CreateAssetBundles
                 newGuide.transform.SetParent(contentsRoot.transform);
                 PrefabUtility.SaveAsPrefabAsset(contentsRoot, assetPath);
                 PrefabUtility.UnloadPrefabContents(contentsRoot);
-                count++;
             }
+            count++;
         }
     }
     
